@@ -17,6 +17,7 @@ angular.module('app.controllers', [])
 })
 
 .controller('homeCtrl', function($scope, $cordovaDevice, $state, $q, FBService, $ionicLoading, UserService, $http, $ionicPopup) {
+	alert('is new');
 	$ionic.Platform.ready(function(){
 		$ionicLoading.show({
 	  		template: 'Cargando...'
