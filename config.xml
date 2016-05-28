@@ -38,16 +38,23 @@
 <feature name="http://api.phonegap.com/1.0/device"/>
 <feature name="http://api.phonegap.com/1.0/file" />
 <feature name="http://api.phonegap.com/1.0/camera" />
+<feature name="FacebookConnectPlugin">
+    <param name="ios-package" value="FacebookConnectPlugin"/>
+    <param name="onload" value="true" />
+</feature>
+<plugin name="FacebookConnectPlugin" value="FacebookConnectPlugin"/>
+<access origin="https://m.facebook.com" />
+<access origin="https://graph.facebook.com" />
+<access origin="https://api.facebook.com" />
+<access origin="https://*.fbcdn.net" />
+<access origin="https://*.akamaihd.net" />
 
 
 <gap:plugin name="org.apache.cordova.device" />
 <gap:plugin name="org.apache.cordova.geolocation" />
 <gap:plugin name="org.apache.cordova.splashscreen" />
 <gap:plugin name="org.apache.cordova.statusbar" />
-<gap:plugin name="com.phonegap.plugins.facebookconnect" spec="0.4.0"> source="pgb">
-    <param name="APP_ID" value="180876138680305" />
-    <param name="APP_NAME" value="Heladero Donofrio" />
-</gap:plugin>
+<gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.7.8" source="plugins.cordova.io" />
 
 <gap:config-file platform="ios" parent="ITSAppUsesNonExemptEncryption" mode="add">
 <false/>
