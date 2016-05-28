@@ -44,7 +44,7 @@
 <gap:plugin name="org.apache.cordova.geolocation" />
 <gap:plugin name="org.apache.cordova.splashscreen" />
 <gap:plugin name="org.apache.cordova.statusbar" />
-<plugin name="com.phonegap.plugins.facebookconnect" spec="0.4.0"> source="pgb">
+<gap:plugin name="com.phonegap.plugins.facebookconnect" spec="0.4.0"> source="pgb">
     <param name="APP_ID" value="180876138680305" />
     <param name="APP_NAME" value="Heladero Donofrio" />
 </gap:plugin>
