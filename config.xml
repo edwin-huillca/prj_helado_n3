@@ -4,7 +4,7 @@
     xmlns:android   = "http://schemas.android.com/apk/res/android"
     id              = "com.donofrio.app.v3"
     version         = "1.0.0">
-<name>DONOFRIO v2</name>
+<name>DONOFRIO v3</name>
 <description>Aplicación para Nestlé Perú SA.</description>
 
 
