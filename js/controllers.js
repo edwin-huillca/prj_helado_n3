@@ -17,7 +17,7 @@ angular.module('app.controllers', [])
 })
 
 .controller('homeCtrl', function($scope, $cordovaDevice, $state, $q, FBService, $ionicLoading, UserService, $http, $ionicPopup) {
-	ionic.Platform.ready(function(){
+	$ionic.Platform.ready(function(){
 		$ionicLoading.show({
 	  		template: 'Cargando...'
 		});
@@ -234,7 +234,7 @@ angular.module('app.controllers', [])
 })
 
 .controller('mapSearchCtrl', function($scope, $state, $cordovaGeolocation, $ionicLoading) {
-	ionic.Platform.ready(function(){
+	$ionic.Platform.ready(function(){
 		$ionicLoading.show({
 	        template: '<ion-spinner icon="bubbles"></ion-spinner><br/>Adquiriendo ubicación'
 	    });
